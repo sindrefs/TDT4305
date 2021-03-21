@@ -177,7 +177,7 @@ def task_3(sc, comments_rdd, posts_rdd, users_rdd):
 def main():
     path_to_data = parse_path()  # Parsing application specific arguments
 
-    conf = SparkConf().setAppName("TDT4305 project").setMaster("local")
+    conf = SparkConf().setAppName("TDT4305 project 1").setMaster("local")
     sc = SparkContext(conf=conf)
 
     #  Dependency and import for part 3
